@@ -54,6 +54,13 @@ a {
   text-decoration-color: white;
 }
 
+li {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+
+
 a:hover {
   color: grey;
   text-decoration: underline;
@@ -227,6 +234,7 @@ section {
   font-size: 2.5rem;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #socials-container {
@@ -539,10 +547,10 @@ footer p {
 
 /* Research Section */
 #research {
-  padding: 200px 0; /* Add padding as needed */
-  margin-bottom: 350px;
-  margin-top: -150px;
+  padding: 100px 0; /* Add padding as needed */
+  margin-top: -100px;
   margin-right: 100px;
+  margin-bottom: -400px;
 }
 
 .research-container {
@@ -573,6 +581,13 @@ footer p {
   border-radius: 5px;
 }
 
+.research-location {
+  display: inline-block;
+  background-color: #d36ce3;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 .research-image img {
   max-width: 200px; /* Set max width for the image */
   border: 2px solid #f2f2f2; /* Add a solid border around the image */
@@ -584,8 +599,8 @@ footer p {
 /* Publications Section */
 #publication {
   padding: 200px 0; /* Add padding as needed */
-  margin-bottom: -350px;
-  margin-top: -150px;
+  margin-bottom: 100px;
+  margin-top: -50px;
   margin-right: 100px;
 }
 
